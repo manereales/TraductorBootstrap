@@ -1,0 +1,147 @@
+﻿@model TraductorMVC.Models.ResultViewModel
+@{
+    ViewBag.Title = "Index";
+
+}
+
+
+
+
+@using (Ajax.BeginForm("Enter", "Traductor", new AjaxOptions()
+{
+    HttpMethod = "POST",
+    InsertionMode = InsertionMode.Replace,
+    UpdateTargetId = "Respuesta"
+}))
+{
+
+        <style>
+
+
+          /*  .row {
+                
+                padding: 50px;
+                color: red;
+                
+               
+            }
+
+            .div{
+               
+                color: black;      
+                padding: 10px;
+               
+               
+                
+            }
+
+            .input{
+                padding: 10px;
+                margin: 10px;
+                width: 700px;
+                height: 50px;
+               
+            }*/
+
+            body {
+                /*background-image: url('../../images/images.jpg');*/
+                background-image: url('../../images/a-gradient-background-with-multiple-colors-used-free-photo.jpg');
+            }
+
+           
+        </style>
+                
+
+        <body  class="body">
+            <div class="container m-5">
+
+                <div class="row m-5">
+                    <div class="div col-lg-12">
+                        <h2 class="text-center">Translate your next</h2>
+                        <h3 class="text-center">write and click Translate</h3>
+                    </div>
+                </div>
+
+
+
+
+                <div class="row m-5">
+                    <div class="col-12 col-lg-6 w-100 h-100 m-5">
+                        <div class="d-flex align-items-center justify-content-start">
+                            <div class="col-12 col-lg-5 m-5 w-25 ">
+
+                                <div class="">
+                                    <input class="form-control input-lg rounded-pill w-100 h-100 p-3" type="text" name="palabra" placeholder="Enter your text" />
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-2 me-2">
+                                <select class="form-select w-10 rounded-pill">
+                                    <option value="1">Ingles</option>
+                                    <option value="2">Frances</option>
+                                </select>
+                            </div>
+                            
+
+                            <div class="col-12 col-lg-5 m-5 m-0">
+
+
+                                <div class="mt-5 ps-2 me-5 ms-0 w-100 h-100">
+                                    <input class="form-control input-lg  rounded-pill p-3" type="text" name="palabra" />
+
+                                    <div class="m-2 text-lg-center p-1">
+                                        <input type="submit" class="btn btn-primary" name="Translate" value="Translate" />
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    @*<div class="row">
+                <div class="div col-xs-6 col-lg-6 col ">
+
+                    <div class="seleccion col-xs-6 d-flex ">
+                        <select class="form-select">
+                            <option value="1">Ingles</option>
+                            <option value="2">Frances</option>
+                        </select>
+                    </div>
+                    <input class="input" type="text" name="palabra" placeholder="Enter your text" />
+                </div>
+                <div class="div col-xs-6 col-lg-6" style="padding: 25px;">
+                    <input class="input" type="text" name="palabra"  />
+                    <div class="text-center">
+                        <input type="submit" class="btn btn-primary" name="Translate" value="Translate" />
+                    </div>
+
+                </div>
+            </div>*@
+            </div>
+        </div>
+</body>
+
+       
+}
+
+

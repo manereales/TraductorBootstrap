@@ -1,0 +1,6 @@
+C:\Users\maner\source\repos\TraductorMVC\Traductor.Login\bin\Debug\Traductor.Login.dll
+C:\Users\maner\source\repos\TraductorMVC\Traductor.Login\bin\Debug\Traductor.Login.pdb
+C:\Users\maner\source\repos\TraductorMVC\Traductor.Login\obj\Debug\Traductor.Logic.csproj.AssemblyReference.cache
+C:\Users\maner\source\repos\TraductorMVC\Traductor.Login\obj\Debug\Traductor.Logic.csproj.CoreCompileInputs.cache
+C:\Users\maner\source\repos\TraductorMVC\Traductor.Login\obj\Debug\Traductor.Login.dll
+C:\Users\maner\source\repos\TraductorMVC\Traductor.Login\obj\Debug\Traductor.Login.pdb
